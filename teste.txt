@@ -1,0 +1,14 @@
+program teste;
+ var a, c:integer;
+begin
+ a := 1
+ if a > 2 then :
+  writeln "a é maior que 2"
+ else :
+  writeln "a não é maior que 2"
+ end
+ (* isso é um comentario *)
+ c := 1
+ c := 2
+end.
+$

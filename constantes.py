@@ -1,0 +1,32 @@
+from collections import namedtuple
+
+
+PALAVRAS_RESERVADAS = {
+    "AND": 23,
+    "ARRAY": 9,
+    "BEGIN": 6,
+    "CALL": 11,
+    "CASE": 29,
+    "CONST": 3,
+    "DO": 17,
+    "ELSE": 15,
+    "END": 7,
+    "FOR": 27,
+    "GOTO": 12,
+    "IF": 13,
+    "INTEGER": 8,
+    "LABEL": 2,
+    "NOT": 24,
+    "OF": 10,
+    "OR": 22,
+    "PROCEDURE": 5,
+    "PROGRAM": 1,
+    "READLN": 20,
+    "REPEAT": 18,
+    "THEN": 14,
+    "TO": 28,
+    "UNTIL": 19,
+    "VAR": 4,
+    "WHILE": 16,
+    "WRITELN": 21,
+}
